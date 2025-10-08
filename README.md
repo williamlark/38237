@@ -2,7 +2,7 @@
 
 ## Current behaviour
 
-When using pnpm `configDependencies` values in _pnpm-workspace.yaml_ the renovate pnpm install (`install-tool pnpm {version}`) fails and PRs are not automatically created.
+When using pnpm `configDependencies` values in _pnpm-workspace.yaml_ the renovate pnpm install (`install-tool pnpm {version}`) fails (times out) and PRs are not automatically created.
 
 This reproduction uses `@pnpm/plugin-better-defaults` as a config dependency which runs pnpm install hooks, however, any value for `configDependencies` will cause this issue.
 

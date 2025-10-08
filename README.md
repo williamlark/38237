@@ -1,17 +1,17 @@
-# minimal-reproduction-template
+# Command failed: install-tool pnpm 10.17.0 #38237
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
+## Current behaviour
 
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+When using pnpm `configDependencies` values in _pnpm-workspace.yaml_ the renovate pnpm install (`install-tool pnpm {version}`) fails and PRs are not automatically created.
 
-## Current behavior
+This reproduction uses `@pnpm/plugin-better-defaults` as a config dependency which runs pnpm install hooks, however, any value for `configDependencies` will cause this issue.
 
-Explain the current behavior here.
+## Expected behaviour
 
-## Expected behavior
+The pnpm install in renovate should pass successfully and branches should continue to be created.
 
-Explain the expected behavior here.
+`configDependencies` hooks may or may not be run, but having them in the pnpm-workspace should at least not break the renovate install.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/38237

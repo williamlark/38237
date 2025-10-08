@@ -1,1 +1,10 @@
-{}
+{
+    "extends": ["config:best-practices"],
+    "packageRules": [
+      {
+        "description": "Force lots of pending updates for the Prettier package",
+        "matchPackageNames": ["prettier"],
+        "minimumReleaseAge": "365 days"
+      }
+    ]
+  }

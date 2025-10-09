@@ -1,4 +1,4 @@
-# Command failed: install-tool pnpm 10.17.0 #38237
+# 38237
 
 ## Current behaviour
 

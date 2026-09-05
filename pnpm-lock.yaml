@@ -1,10 +1,29 @@
+---
+lockfileVersion: '9.0'
+
+importers:
+
+  .:
+    configDependencies:
+      '@pnpm/plugin-better-defaults':
+        specifier: 0.2.1
+        version: 0.2.1
+
+packages:
+
+  '@pnpm/plugin-better-defaults@0.2.1':
+    resolution: {integrity: sha512-3Fmur80S7+vmOKMmTdKS6JofiuvpUaBIdKEpgDyr9571FHo5Z4O2nrRUaSflxvwEakeYxIaFZ5MBaqAUnYHaeg==}
+
+snapshots:
+
+  '@pnpm/plugin-better-defaults@0.2.1': {}
+
+---
 lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
-
-pnpmfileChecksum: sha256-UtXZV825NqHOBG69jsYGuWZ97+do7mk2t42sK5gvG2I=
 
 importers:
 

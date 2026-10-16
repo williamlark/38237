@@ -8,5 +8,5 @@
   "dependencies": {
     "prettier": "3.0.0"
   },
-  "packageManager": "pnpm@10.18.1+sha512.77a884a165cbba2d8d1c19e3b4880eee6d2fcabd0d879121e282196b80042351d5eb3ca0935fa599da1dc51265cc68816ad2bddd2a2de5ea9fdf92adbec7cd34"
+  "packageManager": "pnpm@12.13.0+sha512.1e55719bf26e809dce5c5084fdebaa64efb3da9038ae5d68a9f8a68311f1a45841c8c3b76a37298c3b66f6bcc80409a9b7f33c78a7168a3e90fb65a5d8235ae4"
 }
